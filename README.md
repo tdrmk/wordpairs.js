@@ -1,5 +1,5 @@
 # Random Word Pairs
-Generates a heroku like word pairs.
+Generates random heroku like word pairs.
 Rip off of [haikunatorjs](https://github.com/Atrox/haikunatorjs).
 
 # Installation
