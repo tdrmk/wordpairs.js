@@ -1,0 +1,24 @@
+{
+  "name": "random-word-pairs",
+  "version": "1.0.1",
+  "description": "Generates heroku like random word pairs.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdrmk/wordpairs.js.git"
+  },
+  "keywords": [
+    "heroku",
+    "random",
+    "words",
+    "word-pairs"
+  ],
+  "author": "tdrk <tdrmk@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdrmk/wordpairs.js/issues"
+  },
+  "homepage": "https://github.com/tdrmk/wordpairs.js#readme"
+}
