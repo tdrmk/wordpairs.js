@@ -1,8 +1,9 @@
 {
   "name": "random-word-pairs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates heroku like random word pairs.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
   },
   "repository": {
