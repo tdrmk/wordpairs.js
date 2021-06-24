@@ -1,1 +1,1 @@
-export default function wordpair({delim = '-'}: {delim?: string}): string;
+export default function wordpair({delim = '-'}?: {delim?: string}): string;
