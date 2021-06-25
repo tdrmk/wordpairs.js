@@ -32,9 +32,20 @@ function choice(arr) {
   const index = Math.floor(Math.random() * arr.length);
   return arr[index];
 }
-function wordpair({ delim = '-' } = {}) {
-  return  [choice(adjectives), choice(nouns)].join(delim)
+
+function randomNumber(digits) {
+  return Math.floor(Math.random() * 10 ** digits)
+    .toString()
+    .padStart(digits, "0");
 }
 
+function wordpair({ delim = "-", digits = 0 } = {}) {
+  if (digits > 0) {
+    return [choice(adjectives), choice(nouns), randomNumber(digits)].join(
+      delim
+    );
+  }
+  return [choice(adjectives), choice(nouns)].join(delim);
+}
 module.exports = wordpair;
 

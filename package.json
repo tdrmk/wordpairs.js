@@ -1,11 +1,10 @@
 {
   "name": "random-word-pairs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generates heroku like random word pairs.",
   "main": "index.js",
   "types": "index.d.ts",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tdrmk/wordpairs.js.git"
