@@ -18,3 +18,11 @@ import wordpair from 'random-word-pairs';
 console.log(wordpair())
 // sample output: muddy-bread
 ```
+
+```js
+import wordpair from 'random-word-pairs';
+
+console.log(wordpair({ delim = "_", digits = 4 }))
+// sample output: red_forest_4528
+
+```

@@ -1,10 +1,15 @@
 {
   "name": "random-word-pairs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generates heroku like random word pairs.",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {},
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "prepare": "rm -rf dist; mkdir -p dist; browserify index.js --standalone RandomWordPairs -o dist/index.js; cp index.d.ts dist/index.d.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tdrmk/wordpairs.js.git"
@@ -20,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/tdrmk/wordpairs.js/issues"
   },
-  "homepage": "https://github.com/tdrmk/wordpairs.js#readme"
+  "homepage": "https://github.com/tdrmk/wordpairs.js#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
 }
